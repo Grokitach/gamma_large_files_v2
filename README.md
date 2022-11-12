@@ -9,7 +9,7 @@ New GAMMA guns include:
 - AEK971
 - Tacticool MP7 and P90
 
-This is likely not working standalone, you need to a valid installation of GAMMA.
+This is likely not working standalone, you need a valid installation of STALKER GAMMA.
 
 ## Credits
 
