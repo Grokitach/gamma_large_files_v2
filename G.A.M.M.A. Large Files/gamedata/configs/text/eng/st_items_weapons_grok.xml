@@ -7,7 +7,7 @@
 <string_table>
 	
 	<string id="st_wpn_raptr">
-		<text>Raptr Shotgun</text>
+		<text>RAPTR Shotgun</text>
 	</string>
 	<string id="st_wpn_raptr_descr">
 		<text>
@@ -16,6 +16,12 @@
 		%c[d_purple] • %c[ui_gray_2] Leupold M40, Eotech XPS3, Aimpoint CompM4s, Aimpoint Pro, Firefield MG Kemper XL\n 
 		%c[d_purple] • %c[ui_gray_2] Hexagon 12K silencer\n \n 
 		</text>
+	</string>
+	<string id="mag_raptr">
+		<text>RAPTR Shotgun Drum Magazine</text>
+	</string>
+	<string id="mag_raptr_descr">
+		<text>A large magazine that can fit 20 rounds of 12 gauge caliber</text>
 	</string>
 	
 </string_table>

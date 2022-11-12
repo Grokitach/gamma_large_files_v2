@@ -12,8 +12,8 @@
 
 	<string id="st_wpn_kriss_descr">
 		<text>The KRISS Vector[4] is a series of weapons based upon the parent submachine gun design developed by the American company KRISS USA, formerly Transformational Defense Industries (TDI). They use an unconventional delayed blowback system combined with in-line design to reduce perceived recoil and muzzle climb. \n
-		%c[d_purple] ? %c[ui_gray_2] .45 ACP suppressor\n
-		%c[d_purple] ? %c[ui_gray_2] NATO scopes and reflex sights\n</text>
+		%c[d_purple] - %c[ui_gray_2] .45 ACP suppressor\n
+		%c[d_purple] - %c[ui_gray_2] NATO scopes and reflex sights\n</text>
 	</string>
 
 </string_table>
