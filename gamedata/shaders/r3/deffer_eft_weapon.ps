@@ -1,0 +1,36 @@
+#include "common.h"
+#include "sload.h"
+
+f_deffer main (p_bumped I)
+{
+	//Initialize MRT struct
+	f_deffer O;
+	
+	//Sample basic textures
+	float4 albedo_map = s_base.Sample(smp_base, I.tcdh.xy).xyzw; //Albedo map
+	float2 normal_map = s_bump.Sample(smp_base, I.tcdh.xy).wz; //Normal XY (OpenGL)
+	float gloss_map = s_bumpX.Sample(smp_base, I.tcdh.xy).x; //Gloss tex
+
+	//Specular fuckery
+	float specular = gloss_map * gloss_map * gloss_map * gloss_map; //Fake, optionally use alpha from albedo map
+
+	//Normal mapping
+	float3 normal = (0.0, 0.0, 0.0); //Zero-initialize it
+	normal.y = 1.0 - normal.y; //Invert Y
+	normal.xy = normal.xy * 2.0 - 1.0; //Unpack it to -1.0 - 1 range
+	normal.z = sqrt(saturate(1.0 - dot(normal.xy, normal.xy))); //Z-sign reconstruction
+	normal.xyz = normalize(mul(float3x3(I.M1,I.M2,I.M3), normal.xyz)); //Rotate normals by TBN matrix
+
+	//Hemi light
+	float hemi_light = I.position.w; //Check vertex shader for more info
+	
+	//Material ID
+	float material_id = 0.5;
+	
+	//G-Buffer output
+	O = pack_gbuffer(
+	float4(normal, hemi_light),
+	float4(I.position.xyz, material_id),
+	float4(albedo_map.xyz, specular));
+	return O;
+}
