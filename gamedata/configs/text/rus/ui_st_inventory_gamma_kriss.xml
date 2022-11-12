@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+<!--
+	Weapons
+-->
+
+<string_table>
+
+	<string id="st_wpn_kriss">
+		<text>KRISS Vector</text>
+	</string>
+
+	<string id="st_wpn_kriss_descr">
+		<text>KRISS Vector — пистолет-пулемёт, разработанный компанией «Transformational Defense Industries». Использует систему полусвободного затвора, направляющую движимую отдачей затворную группу вниз под большим углом. Эта система называется Kriss Super V. \n
+		%c[d_purple] ? %c[ui_gray_2] .45 подавитель\n
+		%c[d_purple] ? %c[ui_gray_2] Прицелы НАТО и рефлекторные прицелы\n</text>
+	</string>
+
+</string_table>

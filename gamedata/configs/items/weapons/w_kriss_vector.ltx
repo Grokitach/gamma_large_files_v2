@@ -29,13 +29,13 @@ inv_grid_x         = 1
 inv_grid_y         = 1
 
 
-inv_name                                 = kriss_vector
-inv_name_short                           = kriss_vector
-description                              = kriss_vector_descr
+inv_name                                 = st_wpn_kriss
+inv_name_short                           = st_wpn_kriss
+description                              = st_wpn_kriss_descr
 
 kind                                     = w_smg ;w_pistol
 inv_weight                               = 2.78
-cost                                     = 62520
+cost                                     = 122520
 repair_type                              = pistol
 weapon_class                             = assault_rifle
 
@@ -139,8 +139,8 @@ misfire_start_prob                       = 0.007
 misfire_end_condition                    = 0.12
 misfire_end_prob                         = 0.11
 
-condition_queue_shot_dec                 = 0.0009
-condition_shot_dec                       = 0.0009
+condition_queue_shot_dec                 = 0.0002
+condition_shot_dec                       = 0.0002
 
 cam_return                               = 0
 cam_relax_speed                          = 5
@@ -184,7 +184,7 @@ kill_msg_height                          = 23
 snd_draw                = weapons\raptr\raptr_draw
 snd_holster				= weapons\pistol_holster
 snd_empty               = weapons\sr2m\sr2m_empty
-snd_reload              = weapons\sr2m\sr2m_reload_empty
+snd_reload              = eft_wp\glock17\glock17_reload_speed, 1.5w
 snd_reload_empty        = weapons\sr2m\sr2m_reload_empty
 snd_bore				= weapons\draw_silent
 
@@ -216,11 +216,11 @@ lowered_hud_offset_pos_16x9		= 0.1,0,0
 lowered_hud_offset_rot_16x9		= 0.1,-0.8,0.1   
 
 
-shell_point				= 0.0,0.0,0.0
+shell_point				= 0.01,0.0,0.2
 shell_dir               = 0.0, 1.0, 0.0
 shell_bone				= wpn_body
 
-fire_point				= 0,0,0
+fire_point				= 0,0,-0.1
 fire_bone      	      	= muzzle
 
 anm_show             	= kyy_kriss_draw
@@ -228,8 +228,10 @@ anm_hide             	= kyy_kriss_holster
 anm_idle             	= kyy_kriss_idle, idle
 anm_idle_sprint         = kyy_kriss_idle_sprint
 anm_idle_moving 		= kyy_kriss_idle_move
+anm_idle_moving_crouch  = kyy_kriss_idle_moving_crouch
 anm_shots               = kyy_kriss_shoot, shoot
-anm_reload              = kyy_kriss_reload, reload
+anm_reload              = kyy_kriss_reload_partial, reload_partial
+anm_reload_empty		= kyy_kriss_reload, reload
 anm_idle_aim           	= kyy_kriss_idle_aim
 anm_bore				= kyy_kriss_idle_aim
 
@@ -304,10 +306,15 @@ silencer_y                               = 12
 
 item_visual                              = dynamics\weapons\wpn_kriss_vector\wpn_kriss_vector_compm4_hud.ogf
 
-        aim_hud_offset_pos               = -0.06258, 0.015426, -0.04
-        aim_hud_offset_pos_16x9          = -0.06258, 0.015426, -0.04
-        hands_position                   = -0.08525, -0.1, -0.085
-        hands_position_16x9              = -0.08525, -0.1, -0.085
+        aim_hud_offset_pos               = -0.06226, 0.018527, -0.04
+        aim_hud_offset_pos_16x9          = -0.06226, 0.018527, -0.04
+        aim_hud_offset_rot               = -0.022367, 0.00984, 0
+        aim_hud_offset_rot_16x9          = -0.022367, 0.00984, 0
+        hands_orientation                = 0.682463, -1.638527, 0
+        hands_orientation_16x9           = 0.682463, -1.638527, 0
+        hands_position                   = -0.08573, -0.09744, -0.085
+        hands_position_16x9              = -0.08573, -0.09744, -0.085
+        shell_point                      = 0.01, 0, 0.2
 ;------------------------------------------------------------------------------------------------
 
 [wpn_kriss_vector_eot]:wpn_kriss_vector

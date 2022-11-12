@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+<!--
+	Weapons Attachments
+-->
+
+<string_table>
+	
+
+<string id="st_addon_scope_m40">
+		<text>Leupold M40</text>
+	</string>
+	<string id="st_addon_scope_m40_descr">
+		<text> Built around Leupold's Advanced Optical System, the M40 delivers tried and true light transmission, best in class glare reduction in harsh light, and the resolution and clarity that recreational stalkers in the Zone demand.</text>
+	</string>
+	
+	<string id="st_addon_scope_h1h">
+		<text>Aimpoint H1H</text>
+	</string>
+	<string id="st_addon_scope_h1h_descr">
+		<text> The Aimpoint H1H has become a very popular hunting sight worldwide due to its size, light weight and robust build quality. It was designed with the hunter in mind. It is rugged and reliable, for increased confidence in the harshest of elements, a perfect fit for the Zone.</text>
+	</string>
+
+<string id="st_addon_scope_compm4">
+		<text>Aimpoint CompM4s</text>
+	</string>
+	<string id="st_addon_scope_compm4_descr">
+		<text> The Aimpoint CompM4s was designed for users who require a professional quality red dot optic for use under extremely harsh conditions.</text>
+	</string>
+	
+	<string id="st_addon_scope_eoot553">
+		<text>Eotech 553</text>
+	</string>
+	<string id="st_addon_scope_eoot553_descr">
+		<text> The Eotech 553 was developed after extensive testing of various optical sights, and US Special Operations Command has standardized on the Eotech Holographic Weapon Sight as its 1X weapon optic for close quarter and urban combat zone.</text>
+	</string>
+	
+	<string id="st_addon_scope_kemper">
+		<text>Firefield MG Kemper XL</text>
+	</string>
+	<string id="st_addon_scope_kemper_descr">
+		<text>  Features the largest objective lens window on the market, this unique device was designed for close-quarters, offering fast target acquisition while maintaining pinpoint accuracy.</text>
+	</string>
+</string_table>
