@@ -14,5 +14,10 @@ This is likely not working standalone, you need a valid installation of STALKER 
 ## Credits
 
 Gun porting and rigging: Rubrakul
+
 Gun additional texturing: Cr3pis
+
 Gun animations: Firebreath
+
+Gun texture fixes and shader profiles: TDog
+
