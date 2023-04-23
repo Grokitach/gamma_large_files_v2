@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_g36v">
+		<text>G36V</text>
+	</string>
+	<string id="st_wpn_g36v_descr">
+		<text>The H&amp;K G-36 was known as the HK-50 project in the early 1990s. After the cancellation of the G11 and G41 projects, the Bundeswehr was left with outdated G3 rifles. Heckler &amp; Koch was set to develop a new assault rifle for both the German army and for export.This version previously known as the G36E (E—Export), it is the export version of the standard G36. The G36V has all of the characteristics of the standard rifle, the bayonet mount is a standard NATO type. This version was first produced for Spain and Latvia. So far, there have been very few complaints about this rifle. It is accurate, reliable and simple in maintenance.\n \n
+		%c[0,255,255,255]PROPERTIES:\n
+		%c[d_cyan] � %c[0,255,255,255]Origin: %c[ui_gray_1]Germany\n
+		%c[d_cyan] � %c[0,255,255,255]Manufacturer: %c[ui_gray_1]Heckler &amp; Koch\n
+		%c[d_cyan] � %c[0,255,255,255]Production Year: %c[ui_gray_1]1996\n
+		</text>
+	</string>
+	<string id="st_wpn_g36ka4k">
+		<text>G36KA4</text>
+	</string>
+	<string id="st_wpn_g36ka4_descr">
+		<text>The H&amp;K G-36 was known as the HK-50 project in the early 1990s. After the cancellation of the G11 and G41 projects, the Bundeswehr was left with outdated G3 rifles. Heckler &amp; Koch was set to develop a new assault rifle for both the German army and for export. G36KA4 variant that started showing up in 2016-2017 that improved on the G36K. It added the proprietary HKey mod system to the handguard, to add more tactical accessories, a heavier barrel, and removed x3 scope on the carry handle, for a lower profile KAC BUIS rail, grenade launcher attachable.\n \n
+		%c[0,255,255,255]PROPERTIES:\n
+		%c[d_cyan] � %c[0,255,255,255]Origin: %c[ui_gray_1]Germany\n
+		%c[d_cyan] � %c[0,255,255,255]Manufacturer: %c[ui_gray_1]Heckler &amp; Koch\n
+		%c[d_cyan] � %c[0,255,255,255]Production Year: %c[ui_gray_1]1997\n
+		</text>
+	</string>
+	<string id="st_wpn_g36nimble_rwap">
+		<text>G36C "Merc"</text>
+	</string>
+	<string id="st_wpn_g36nimble_rwap_descr">
+		<text>The H&amp;K G-36 was known as the HK-50 project in tge early 1990s. After the cancellation of the G11 and G41 projects, the Bundeswehr was left with outdated G3 rifles. Heckler &amp; Koch was set to develop a new assault rifle for both the German army and for export. The new 5.56x45mm assault rifle was adopted by the Bundeswehr in 1995 and also found its way into the hands of various law enforcement agencies worldwide, including British police and some US police departments. So far, there have been very few complaints about this rifle. It is accurate, reliable and simple in maintenance. A variant of G36c custom made with B&T quad rail handguard with laser sight some fancy merc job.\n \n
+		%c[0,255,255,255]PROPERTIES:\n
+		%c[d_cyan] � %c[0,255,255,255]Origin: %c[ui_gray_1]Germany\n
+		%c[d_cyan] � %c[0,255,255,255]Manufacturer: %c[ui_gray_1]Heckler &amp; Koch\n
+		%c[d_cyan] � %c[0,255,255,255]Production Year: %c[ui_gray_1]1997\n \n
+		%c[0,255,255,255]UNIQUE: %c[0,250,250,0]This special weapon similar as G36C with bolt modfied with better rpm as a result bullets more devastating power to the target. It also comes with KAC rail and B&T quadrail handguard. B&T handguard has laser sight for night operations and have rvg vertical grip for better accuracy and recoil control.\n
+		</text>
+	</string>
+</string_table>
