@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+<!--
+	Weapons
+-->
+
+<string_table>
+
+	<string id="st_wpn_steppe_eagle">
+		<text>Steppe Eagle</text>
+	</string>
+	<string id="st_wpn_steppe_eagle_descr">
+		<text>Developed by the American company Magnum Research, the Desert Eagle uses a gas operated mechanism commonly found in rifles. This allows the pistol to use much larger caliber bullets than traditional semi-automatic pistols. The disadvantages of this weapon include a considerable size and heavy weight. On this barrel, all components are perfectly tuned to achieve the highest accuracy for pistols of this type, thanks to the integrated muzzle compensator, it was possible to significantly reduce recoil. It has a heavily redesigned picatinny rail, thanks to which a wide range of scopes can be mounted. This weapon was brought to the Zone by stalker Logan Williams. Under the guise of a journalist-photographer, he managed to reach the center of Pripyat alone. Currently, his fate is unknown, but there are rumors that he works as an informant for many secret departments on the Exclusion Zone.\n \n
+		%c[0,140,140,140]ATTACHMENTS: \n
+		%c[0,93,0,116] • %c[0,140,140,140] Sights: March Tactical 3-24x42 FFP, ПН-23, ELCAN SpecterDR, ОКП-2, AC10632, ACOG, Aimpoint Micro T1 (low mount), Aimpoint Micro T1 (high mount), C-MORE, Aimpoint CompM4s, Docter Sight III, Deltapoint PRO, EOTech XPS3-0, Кобра ЭКП-8-18, Firefield Kemper XL-M, Meprolight M21, ОКП-77, Aimpoint PRO, 1П76 "Рекарус-А", Trijicon RMR. \n</text>
+	</string>
+	<string id="st_wpn_deagle">
+		<text>Desert Eagle</text>
+	</string>
+	<string id="st_wpn_deagle_descr">
+		<text>Developed by the American company Magnum Research, the Desert Eagle uses a gas operated mechanism commonly found in rifles. This allows the pistol to use much larger caliber bullets than traditional semi-automatic pistols. The disadvantages of this weapon include a considerable size and heavy weight.\n \n
+		%c[0,140,140,140]ATTACHMENTS: \n
+		%c[0,93,0,116] • %c[0,140,140,140] Sights: Docter Sight, Aimpoint T1 on a low mount, Trijicon RMR, Leupold DeltaPoint PRO. \n</text>
+	</string>
+</string_table>
