@@ -28,4 +28,17 @@
 		<text> Modification of an army machine gun with belt feed. Despite the high mass and unsatisfactory accuracy, it has found a fairly wide application in the Zone. It is mainly used to suppress an enemy outnumbered and when clearing mutant lairs.\n
 		</text>
 	</string>
+
+	<string id="st_wpn_pkm_zenit_siber">
+		<text>PKM Zenit</text>
+	</string>
+	<string id="st_wpn_pkm_zenit_siber_descr">
+		<text>An improved modification of the PKM machine gun in a body kit from the Zenitka company. The model has angled foregrip installed for better recoil control. In the Zone it is used mainly by the military (special forces).\n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] Scopes compatible with Picatinny rails\n
+		%c[d_purple] • %c[ui_gray_2] Zenit Perst-3 tactical laser included\n
+		%c[d_purple] • %c[ui_gray_2] TGP-V Suppressor\n </text>
+	</string>
+
+
 </string_table>
