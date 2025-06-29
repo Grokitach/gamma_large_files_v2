@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+<!-- 
+	Strings for "Dead Air Knives"
+-->
+
+
+<string_table>
+
+	<string id="st_mag_mp9iwp">
+		<text>9x19 40-Round Magazine</text>
+	</string>
+	<string id="st_mag_mp9iwp_descr">
+		<text>9x19 40-Round Magazine For 9x19 ammo.</text>
+	</string>
+	
+</string_table>

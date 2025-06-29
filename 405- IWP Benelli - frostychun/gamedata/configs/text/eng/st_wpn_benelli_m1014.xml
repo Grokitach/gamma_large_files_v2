@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+<string_table>
+		<string id="st_wpn_benelli_m1014">
+		<text>BENELLI M1014 SHOTGUN </text>
+	</string>
+	<string id="st_wpn_benelli_m1014_descr">
+		<text>The Benelli M4 is a semi-automatic shotgun produced by Italian firearm manufacturer Benelli Armi SpA, and the fourth and last model of the Benelli Super 90 line of semi-automatic shotguns. The M4 uses a proprietary action design called the "auto-regulating gas-operated" (ARGO) system, which was created specifically for the weapon. Designed in 1998, the M4 was adopted by the armed forces of Italy, the United States, and United Kingdom, among others, and has been used in a variety of conflicts.\n \n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] Sights : 0kp2, e0t2, eot, ac10632, c-more, ekp8_18, rmr, deltapoint, aim_low, d0cter\n 
+		%c[d_purple] • %c[ui_gray_2] Silencer: SALVO12 \n</text>
+	</string>	
+</string_table>

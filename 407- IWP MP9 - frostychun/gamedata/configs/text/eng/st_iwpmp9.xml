@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+<string_table>
+		<string id="st_wpn_mp9">
+		<text>Brugger Thomet MP9 </text>
+	</string>
+	<string id="st_wpn_mp9_descr">
+		<text>The Brugger Thomet MP9 (Maschinenpistole 9mm, German for "machine pistol") is a submachine gun chambered for the 9?19mm Parabellum cartridge that is designed and manufactured by Brugger Thomet.\n \n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] Sights: Most simple sights.\n 
+		%c[d_purple] • %c[ui_gray_2] Silencer: 9mm Silencer \n</text>
+	</string>	
+</string_table>
